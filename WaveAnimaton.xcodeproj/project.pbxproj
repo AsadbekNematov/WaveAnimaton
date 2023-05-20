@@ -11,6 +11,9 @@
 		F76E27A92A1901430097DE9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E27A82A1901430097DE9F /* ContentView.swift */; };
 		F76E27AB2A1901450097DE9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76E27AA2A1901450097DE9F /* Assets.xcassets */; };
 		F76E27AE2A1901450097DE9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76E27AD2A1901450097DE9F /* Preview Assets.xcassets */; };
+		F76E27B72A19017E0097DE9F /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E27B52A19017E0097DE9F /* WaveView.swift */; };
+		F76E27B82A19017E0097DE9F /* BuoyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E27B62A19017E0097DE9F /* BuoyView.swift */; };
+		F76E27BA2A1901860097DE9F /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76E27B92A1901860097DE9F /* PlaySound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		F76E27A82A1901430097DE9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F76E27AA2A1901450097DE9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F76E27AD2A1901450097DE9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76E27B42A19016A0097DE9F /* buoyBells.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = buoyBells.m4a; sourceTree = "<group>"; };
+		F76E27B52A19017E0097DE9F /* WaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		F76E27B62A19017E0097DE9F /* BuoyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuoyView.swift; sourceTree = "<group>"; };
+		F76E27B92A1901860097DE9F /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		F76E27A52A1901430097DE9F /* WaveAnimaton */ = {
 			isa = PBXGroup;
 			children = (
+				F76E27B42A19016A0097DE9F /* buoyBells.m4a */,
 				F76E27A62A1901430097DE9F /* WaveAnimatonApp.swift */,
+				F76E27B62A19017E0097DE9F /* BuoyView.swift */,
+				F76E27B52A19017E0097DE9F /* WaveView.swift */,
 				F76E27A82A1901430097DE9F /* ContentView.swift */,
+				F76E27B92A1901860097DE9F /* PlaySound.swift */,
 				F76E27AA2A1901450097DE9F /* Assets.xcassets */,
 				F76E27AC2A1901450097DE9F /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76E27BA2A1901860097DE9F /* PlaySound.swift in Sources */,
 				F76E27A92A1901430097DE9F /* ContentView.swift in Sources */,
+				F76E27B72A19017E0097DE9F /* WaveView.swift in Sources */,
 				F76E27A72A1901430097DE9F /* WaveAnimatonApp.swift in Sources */,
+				F76E27B82A19017E0097DE9F /* BuoyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
