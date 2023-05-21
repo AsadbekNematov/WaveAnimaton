@@ -5,7 +5,7 @@
 //  Created by Asadbek Nematov on 5/20/23.
 //
 import SwiftUI
-
+ 
 struct ContentView: View {
     @State private var animateOffset = false
     @State private var tiltForwardBackward = false
